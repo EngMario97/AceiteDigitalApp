@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{786F2347-CA62-4339-9499-AB67EB5F0A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C323FB4A-0B66-4D1A-9B1E-CB3818CD7138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{9D826747-8592-454B-9C78-463E6D991600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E28A47F2-DBD9-453F-BCC9-679E050160E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceiteDigitalApp.Domain", "AceiteDigitalApp.Domain\AceiteDigitalApp.Domain.csproj", "{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceiteDigital.Data", "AceiteDigital.Data\AceiteDigital.Data.csproj", "{6522DBBB-BEDC-46AC-A949-E637C847EDA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AceiteDigital.WebApp", "AceiteDigital.WebApp\AceiteDigital.WebApp.csproj", "{5580CF4B-E8E1-410D-AF10-449FAAD91B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceiteDigital.Application", "AceiteDigital.Application\AceiteDigital.Application.csproj", "{15D8B451-05D4-475A-87E6-F53CC6EBA07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6522DBBB-BEDC-46AC-A949-E637C847EDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6522DBBB-BEDC-46AC-A949-E637C847EDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6522DBBB-BEDC-46AC-A949-E637C847EDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6522DBBB-BEDC-46AC-A949-E637C847EDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5580CF4B-E8E1-410D-AF10-449FAAD91B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5580CF4B-E8E1-410D-AF10-449FAAD91B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5580CF4B-E8E1-410D-AF10-449FAAD91B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5580CF4B-E8E1-410D-AF10-449FAAD91B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D8B451-05D4-475A-87E6-F53CC6EBA07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D8B451-05D4-475A-87E6-F53CC6EBA07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D8B451-05D4-475A-87E6-F53CC6EBA07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D8B451-05D4-475A-87E6-F53CC6EBA07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6BB7F8F-DF20-4328-9506-72A78DCC3EA7} = {C323FB4A-0B66-4D1A-9B1E-CB3818CD7138}
+		{6522DBBB-BEDC-46AC-A949-E637C847EDA9} = {E28A47F2-DBD9-453F-BCC9-679E050160E5}
+		{5580CF4B-E8E1-410D-AF10-449FAAD91B74} = {786F2347-CA62-4339-9499-AB67EB5F0A08}
+		{15D8B451-05D4-475A-87E6-F53CC6EBA07F} = {786F2347-CA62-4339-9499-AB67EB5F0A08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A73C5B5-2008-4C26-BEB3-FE180E3A28B0}
+	EndGlobalSection
+EndGlobal
